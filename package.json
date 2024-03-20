@@ -1,0 +1,13 @@
+{
+  "name": "EcommerceUIAutomationInWDIO",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/cli": "^8.34.1",
+    "@wdio/local-runner": "^8.34.1",
+    "@wdio/mocha-framework": "^8.33.1",
+    "@wdio/spec-reporter": "^8.32.4"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
